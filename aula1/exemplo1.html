@@ -1,0 +1,18 @@
+<meta charset="utf-8">
+<script src="funcoes.js"></script>
+<script>
+    var i, qtd, num, maior, menor;
+
+    qtd= Number(prompt('Informe a qtd desejada: '));
+
+    document.write('<hr>Relação de números informados: <hr>')
+    for(i=1; i <= qtd; i++){
+        num = Number(prompt('Informe o número: '));
+        buscarMaiorMenor()
+
+        document.write(num, '<br>');
+    }
+    document.write('Menor = ',menor,'<br>');
+    document.write('Maior = ',maior);
+
+</script>
